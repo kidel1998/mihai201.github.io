@@ -17,7 +17,7 @@ class t_eq2_model{
 		this.x2P_im = 0;
 		
 	}
-	set_coefficients(){
+	set_coefficients(a,b,c){
 		this.a = a;
 		this.b = b;
 		this.c = c;
@@ -40,10 +40,10 @@ class t_eq2_model{
 	}
 	get_solutions(){
 		var solutions ={};
-		solutions.x1=x1_re;
-		solutions_x1 =x1_im;
-		solutions.x2=x2_re;
-		solutions_x2 =x2_im;
+		solutions.x1 = this.x1_re;
+		solutions.x1 = this.x1_im;
+		solutions.x2 = this.x2_re;
+		solutions.x2 = this.x2_im;
 		return solutions;
 	}
 	}

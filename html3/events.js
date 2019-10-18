@@ -2,7 +2,7 @@ class t_events //t_list_of_events_and_functions{
 {
 	  events;
 	  
-	constructir(){
+	constructor(){
 		this.events = [];
 		
 	}
